@@ -1,0 +1,32 @@
+/* Layout rules */
+
+.l-flex-left {}
+.l-fix-right {}
+
+.l-section {}
+.l-section > .l-title {}
+.l-section > .l-text {}
+
+.l-section > .l-item {}
+.l-section > .l-item > .l-title {}
+.l-section > .l-item > .l-text {}
+
+.l-skill-bar {}
+
+/* Sementics rules */
+
+.s-header {}
+.s-title {}
+.s-fullname {}
+
+.s-introduction {}
+.s-school-description {}
+.s-professional-description {}
+.s-skills {}
+
+.s-conctact {}
+.s-languages {}
+.s-pros {}
+.s-travels {}
+.s-interests {}
+
