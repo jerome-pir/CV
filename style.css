@@ -1,46 +1,39 @@
-/* Layout rules */
-.l-body{
-    display: flex;
-}
-.l-flex-left {
-    width: 70%;
-}
-.l-fix-right {
-    width: 30%;
+body { margin: 0; position: abolute; top: 0; left: 0; right: 0; bottom: 0 }
+
+.b-frame { overflow: hidden; }
+.b-frame > .l-content { margin-right: 33%; }
+.b-frame > .l-right { float: right; width: 33%; }
+
+.b-frame > .s-side-info .s-contact ul { list-style-type: none; }
+.b-frame > .s-side-info .s-contact ul {}
+.b-frame > .s-side-info .s-contact li {}
+
+.b-frame > .s-side-info .b-skill-bar-list .l-bar-active { background-color: #50c95f; }
+
+.b-section { overflow: hidden }
+.b-section .l-title { font-family: 'Comics Sans' }
+
+.b-section.l-header .s-title { text-transform: uppercase; font-size: 1.5em; }
+.b-section.l-header .s-lastname { text-transform: uppercase; }
+
+.b-frame > .l-content > .b-section { margin-top: 1em; }
+.b-frame > .l-content > .b-section > .l-title {}
+.b-frame > .l-content > .b-section > .l-text {}
+
+.b-skill-bar-list { list-style-type: none; }
+.b-skill-bar-list > .l-item > .l-label {}
+.b-skill-bar-list > .l-item > .l-bar {
+  display: inline-block;
+  width: 150px;
+  background-color: #ccc;
+  height: 1em;
 }
 
-.l-section {}
-.l-section > .l-title {}
-.l-section > .l-text {}
-
-.l-section > .l-item {}
-.l-section > .l-item > .l-title {}
-.l-section > .l-item > .l-text {}
-
-.l-skill-bar {}
-
-/* Sementics rules */
-
-.s-header {
-    font-size: 3ex;
+.b-skill-bar-list .l-bar-active {
+  display: inline-block;
+  background-color: #d62c2c;
+  height: 100%;
 }
-.s-title {
-    font-size: 2ex;
-}
-.s-fullname {}
-.s-list{
-        list-style:none;
-        margin-left:3px;
-        padding-left:0;
-}
-.s-introduction {}
-.s-school-description {}
-.s-professional-description {}
-.s-skills {}
 
-.s-conctact {}
-.s-languages {}
-.s-pros {}
-.s-travels {}
-.s-interests {}
+
 
