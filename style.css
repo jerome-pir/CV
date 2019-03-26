@@ -7,6 +7,7 @@
 }
 .l-fix-right {
     width: 30%;
+    margin-left: 4px;
 }
 
 .l-section {}
@@ -30,7 +31,7 @@
 .s-fullname {}
 .s-list{
         list-style:none;
-        margin-left:3px;
+        margin-left:0;
         padding-left:0;
 }
 .s-introduction {}
@@ -43,4 +44,22 @@
 .s-pros {}
 .s-travels {}
 .s-interests {}
+
+/* Make sure that padding behaves as expected */
+
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: rgb(143, 140, 140); /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+
+.s-skills-english {width: 50%; background-color: #2196F3;}
+.s-skils-deutsch {width: 30%; background-color: #2196F3;} 
 
