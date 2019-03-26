@@ -4,7 +4,7 @@ body { margin: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0 }
 .b-frame > .l-content { margin-right: 33%; }
 .b-frame > .l-right { float: right; width: 33%; }
 
-.b-frame > .s-side-info .s-contact ul { list-style-type: none; }
+.b-frame > .s-side-info .s-contact ul { list-style-type: none; padding-left: 0;margin-left: 0; }
 .b-frame > .s-side-info .s-contact li {}
 
 .b-frame > .s-side-info .b-skill-bar-list .l-bar-active { background-color: #2976ce; }
@@ -18,9 +18,9 @@ body { margin: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0 }
 .b-frame > .l-content > .b-section { margin-top: 1em; margin-left: 40px; }
 .b-frame > .l-content > .b-section > .l-title {}
 .b-frame > .l-content > .b-section > .l-text{}
-.b-frame > .l-right > .b-section > .l-title {margin-left: 40px;}
+.b-frame > .l-right > .b-section > .l-title {}
 
-.b-skill-bar-list { list-style-type: none; }
+.b-skill-bar-list { list-style-type: none; padding-left: 0; }
 .b-skill-bar-list > .l-item > .l-label {}
 .b-skill-bar-list > .l-item > .l-bar {
   display: inline-block;
