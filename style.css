@@ -21,10 +21,18 @@
 
 /* Sementics rules */
 
-.s-header {}
-.s-title {}
+.s-header {
+    font-size: 3ex;
+}
+.s-title {
+    font-size: 2ex;
+}
 .s-fullname {}
-
+.s-list{
+        list-style:none;
+        margin-left:3px;
+        padding-left:0;
+}
 .s-introduction {}
 .s-school-description {}
 .s-professional-description {}
