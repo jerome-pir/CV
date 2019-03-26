@@ -50,8 +50,10 @@
 
 /* Container for skill bars */
 .container {
-  width: 100%; /* Full width */
-  background-color: rgb(143, 140, 140); /* Grey background */
+    
+    height: 5px;
+    width: 70%; /* Full width */
+    background-color: rgb(143, 140, 140); /* Grey background */
 }
 
 .skills {
@@ -60,6 +62,10 @@
   color: white; /* White text color */
 }
 
-.s-skills-english {width: 50%; background-color: #2196F3;}
-.s-skils-deutsch {width: 30%; background-color: #2196F3;} 
+.s-skills-english {
+    width: 50%; background-color: #2196F3;
+}
+.s-skils-deutsch {
+    width: 30%; background-color: #2196F3;
+} 
 
