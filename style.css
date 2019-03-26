@@ -2,7 +2,7 @@ body { margin: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0 }
 
 .b-frame { overflow: hidden;}
 .b-frame > .l-content { margin-right: 33%; }
-.b-frame > .l-right { float: right; width: 33%; }
+.b-frame > .l-right { float: right; width: 33%; padding-left: 2em;}
 
 .b-frame > .s-side-info .s-contact ul { list-style-type: none; padding-left: 0;margin-left: 0; }
 .b-frame > .s-side-info .s-contact li {}
@@ -16,9 +16,9 @@ body { margin: 0; position: absolute; top: 0; left: 0; right: 0; bottom: 0 }
 .b-section.l-header .s-lastname { text-transform: uppercase; }
 
 .b-frame > .l-content > .b-section { margin-top: 1em; margin-left: 40px; }
-.b-frame > .l-content > .b-section > .l-title {}
+.b-frame > .l-content > .b-section > .l-title {color  :rgb(56, 69, 243);}
 .b-frame > .l-content > .b-section > .l-text{}
-.b-frame > .l-right > .b-section > .l-title {}
+.b-frame > .l-right{background-color: rgb(150, 224, 200);}
 
 .b-skill-bar-list { list-style-type: none; padding-left: 0; }
 .b-skill-bar-list > .l-item > .l-label {}
